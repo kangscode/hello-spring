@@ -8,11 +8,11 @@ group = 'hello'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
-repositories {
+repositories {   //라이브러리를 다운받는 곳 설정
 	mavenCentral()
 }
 
-dependencies {
+dependencies { //라이브러리
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
